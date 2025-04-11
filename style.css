@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+}
+
+.navBar i {
+  color: #000;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 93px;
+  height: 20px;
+}
+
+.logo img:hover {
+  cursor: pointer;
+}
+
+.logo p {
+  font-size: 12px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 650px;
+  height: 40px;
+}
+
+.search input {
+  width: 550px;
+  height: 40px;
+  border: 1px solid grey;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 20px;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px rgb(218, 213, 213);
+}
+
+.search .searchIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  background: rgb(248, 247, 247);
+  height: 42px;
+  border: 1px solid grey;
+  border-left: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px rgb(218, 213, 213);
+}
+
+.search .searchIcon:hover {
+  cursor: pointer;
+}
+
+.mic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgb(238, 234, 234);
+  font-size: 20px;
+  padding: 5px;
+}
+
+.searchMic {
+  height: auto;
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mic:hover {
+  cursor: pointer;
+}
+
+.navRightCorner {
+  display: flex;
+  margin-right: 35px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 220px;
+}
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100px;
+  height: 35;
+  background: rgb(238, 234, 234);
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.feedback i {
+  font-size: 20px;
+}
+
+.feedback:hover {
+  cursor: pointer;
+}
+
+.bellIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+}
+
+.bellIcon i {
+  font-size: 22px;
+}
+
+.bellIcon:hover {
+  cursor: pointer;
+  background: rgb(238, 234, 234);
+}
+
+.avatar i {
+  font-size: 33px;
+}
+
+.avatar:hover {
+  cursor: pointer;
+}
+
+.tags {
+  display: flex;
+  padding: 10px 20px;
+  gap: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.tag {
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.dark {
+  background: #000;
+  color: #fff;
+}
+
+.light {
+  background: rgb(238, 238, 238);
+  color: #000;
+}
+
+.menuBar i {
+  font-size: 24px;
+}
+
+.menuBar i:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.sideIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sideIcons img,
+i {
+  width: 20px;
+}
+
+.sideIcons p {
+  font-size: 10px;
+}
