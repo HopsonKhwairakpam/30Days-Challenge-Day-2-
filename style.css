@@ -159,6 +159,10 @@
   font-size: 15px;
 }
 
+.tags:hover {
+  cursor: pointer;
+}
+
 .tag {
   padding: 5px 15px;
   border-radius: 20px;
@@ -174,12 +178,8 @@
   color: #000;
 }
 
-.menuBar i {
-  font-size: 24px;
-}
-
-.menuBar i:hover {
-  cursor: pointer;
+.light:hover {
+  background: rgb(216, 212, 212);
 }
 
 .container {
@@ -191,8 +191,26 @@ aside {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   gap: 30px;
   margin-top: 10px;
+  height: 380px;
+  width: 80px;
+}
+
+.menuBars i {
+  font-size: 20px;
+}
+
+.menuBars:hover {
+  cursor: pointer;
+  background: rgb(238, 234, 234);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
 }
 
 .sideIcons {
@@ -202,6 +220,17 @@ aside {
   justify-content: center;
 }
 
+.sideIcons:hover {
+  cursor: pointer;
+  background: rgb(238, 234, 234);
+  height: 70px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
 .sideIcons img,
 i {
   width: 20px;
@@ -209,4 +238,85 @@ i {
 
 .sideIcons p {
   font-size: 10px;
+}
+
+.mainContainer {
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card:hover {
+  background: rgb(239, 232, 232);
+  height: 280px;
+  width: 500px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.card {
+  padding: 10px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 340px;
+}
+
+.avatarContent {
+  padding-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.avatarContent #user {
+  font-size: 25px;
+}
+
+.channelName {
+  color: rgb(153, 139, 139);
+}
+
+.channelName:hover {
+  color: #000;
+}
+
+.contentStatus {
+  color: rgb(153, 139, 139);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.content h3 {
+  font-size: 16px;
+  color: #171616;
+}
+
+.channelName {
+  font-size: 15px;
+}
+
+.contentStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contentStatus i {
+  font-size: 3px;
 }
